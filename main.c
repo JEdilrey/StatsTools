@@ -310,7 +310,7 @@ void hypothesisTesting(){
 
 void pearsonr(){
 	
-		int nth, i;
+		int nth = 0, i;
 		char letter;
 	
 	// pearson r
@@ -329,7 +329,7 @@ void pearsonr(){
 	
 
 	
-	double  datasetX[nth], datasetY[nth], deviationX[nth], deviationY[nth], devMulti[nth], sqDevX[nth], sqDevY[nth];
+	double datasetX[nth], datasetY[nth], deviationX[nth], deviationY[nth], devMulti[nth], sqDevX[nth], sqDevY[nth];
 
 	// enter the dataset for x 	
 	printf("Enter Data set for X coordinate\n");
